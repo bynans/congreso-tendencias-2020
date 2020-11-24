@@ -90,7 +90,7 @@ pivot_yoy <- tabla_mes_anio_yoy %>%
   pivot_wider(names_from = anio_mes,
               values_from = YoY)
 
-vector_ordenado <- c("alfaguaraes","anagramaeditor", "planetadelibrosar","seix_barral", "sigloxxiarg","smliteraturajuvenil", "ed_entropia", "cajanegraeditora", "quipulibros", "oceano_argentina", "editorial_sigilo", "ediciones.ampersand","chinaeditora", "labestiaequilatera_editorial", "labolaeditora","editorialsanpabloargentina", "cespedeslibros", "cuspidelibros","estacion_libro","libreria.aforismos","libreria.micasa", "libreria.norte","libreriadelconti", "libreriarodriguezalmagro", "zivals.ok" ,"libreria_guardia","libreriakier","yenny_elateneo", "libreriadefamilias","libreriahammurabi","libreriademujeresargentina", "libreriacorneja", "libreriadelfondoycc","libreriahomosapiens", "libreriatraslospasos", "librosdelpasaje", "mandragora.librosycultura",  "librosvuelvoalsur", "notanpuan", "sbsargentina")
+vector_ordenado <- c("alfaguaraes","anagramaeditor", "planetadelibrosar","seix_barral", "sigloxxiarg","smliteraturajuvenil", "ed_entropia", "cajanegraeditora", "quipulibros", "oceano_argentina", "ediciones.ampersand","chinaeditora", "labestiaequilatera_editorial", "labolaeditora","editorialsanpabloargentina", "cespedeslibros", "cuspidelibros","estacion_libro","libreria.aforismos","libreria.micasa", "libreria.norte","libreriadelconti", "libreriarodriguezalmagro", "zivals.ok" ,"libreria_guardia","libreriakier","yenny_elateneo", "libreriadefamilias","libreriahammurabi","libreriademujeresargentina", "libreriacorneja", "libreriadelfondoycc","libreriahomosapiens", "libreriatraslospasos", "librosdelpasaje", "mandragora.librosycultura",  "librosvuelvoalsur", "notanpuan", "sbsargentina")
 
 tabla_mes_anio_yoy %>% 
   mutate(usuario = as.factor(usuario),

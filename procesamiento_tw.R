@@ -24,7 +24,7 @@ for (i in 1:length(file_list)){
   dataset <- rbindlist(list(dataset, temp_data), use.names = T) 
 }
 
-vector_ordenado <- c("eternacadencia", "fceargentina", "uranoargentina", "megustaleerarg", "paidosargentina", "planetalibrosar","sigloxxiarg","noveduc","ivreality","oceanoarg", "atlantidatw", "sanpabloar","editorialunlp","edeudeba", "lamarcaeditora","lagataylaluna", "cespedeslibros", "cuspidelibrosok", "hernandezlibre", "kokorolibros", "lalibrelibreria","libreriabetania","librosdelpasaje","libteorema", "tematika_libros", "waldhuter")
+vector_ordenado <- c("eternacadencia", "fceargentina", "uranoargentina", "megustaleerarg", "paidosargentina", "planetalibrosar","sigloxxiarg","noveduc","ivreality","oceanoarg", "atlantidatw", "sanpabloar","editorialunlp","edeudeba", "lamarcaeditora","lagataylaluna", "cespedeslibros", "cuspidelibrosok", "hernandezlibre", "lalibrelibreria","libreriabetania","libteorema", "waldhuter")
 
 #Parámetros para el procesado
 fecha_inicio <- "2019-01-01"
